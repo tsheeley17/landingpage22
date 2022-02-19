@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    height: 1912px; 
+}
+
+            .top-box {
+                display: flex;
+                flex-direction: column;
+                background: lightblue; 
+                justify-content: space-between;
+                height: 50px;
+                flex: 2; 
+            }
+
+            .sidebarleft, .sidebarright {
+                display: flex; 
+                flex: 1;
+            }
+
+.container2 {
+    width: 650px;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    flex: 1; 
+}
+
+.logo {
+    display: flex;
+    background: red; 
+    height: 50px; 
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: lightgreen; 
+    flex: 1; 
+    gap: 20px;
+    height: 50px;
+   
+}
+
+.second-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: slateblue;
+    flex: 1; 
+}
+
