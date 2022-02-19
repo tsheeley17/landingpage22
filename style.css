@@ -9,10 +9,13 @@
             .top-box {
                 display: flex;
                 flex-direction: column;
-                background: lightblue; 
+                background: #1F2937; 
                 justify-content: space-between;
                 height: 50px;
                 flex: 2; 
+                font: 24px;
+                color: #F9FAF8;
+                font-family: font-family: 'Roboto', sans-serif;
             }
 
             .sidebarleft, .sidebarright {
@@ -28,12 +31,11 @@
     display: flex;
     flex-direction: row;
     margin-left: 10px;
-    flex: 1; 
+    flex: 1 1; 
 }
 
 .logo {
-    display: flex;
-    background: red; 
+    display: flex; 
     height: 50px; 
 }
 
@@ -41,7 +43,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background: lightgreen; 
+    margin-right: 30px;
     flex: 1; 
     gap: 20px;
     height: 50px;
@@ -52,7 +54,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background: slateblue;
+    background: #1F2937;
     flex: 1; 
 }
 
