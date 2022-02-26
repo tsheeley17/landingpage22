@@ -1,9 +1,13 @@
+* {
+    font-family: 'Roboto bold', sans-serif;
+}
+
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
     flex: 1;
-    height: 1912px; 
+    position: top; 
 }
 
             .top-box {
@@ -15,7 +19,7 @@
                 flex: 2; 
                 font: 24px;
                 color: #F9FAF8;
-                font-family: font-family: 'Roboto', sans-serif;
+                font-family: 'Roboto bold', sans-serif;
             }
 
             .sidebarleft, .sidebarright {
@@ -24,7 +28,8 @@
             }
 
 .container2 {
-    width: 650px;
+    width: 100%; 
+
 }
 
 .menu-bar {
@@ -37,6 +42,8 @@
 .logo {
     display: flex; 
     height: 50px; 
+    justify-content: center;
+    flex: 1; 
 }
 
 .nav-links {
@@ -47,14 +54,98 @@
     flex: 1; 
     gap: 20px;
     height: 50px;
-   
+    padding-top: 15px; 
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8
 }
 
 .second-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center; 
+    gap: 50px; 
     background: #1F2937;
     flex: 1; 
+    color: #F9FAF8;
 }
 
+.left {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+.right {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right>p {
+    background-color: grey;
+    height: 100px;
+    width: 200px; 
+    border-radius: 5%;
+}
+
+.sub_container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+  
+}
+
+.sub_container3b {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 25px; 
+    height: 200px; 
+   
+}   
+
+.box {
+    display: flex; 
+    height: 125px; 
+    width: 125px; 
+    background: grey;
+    border-radius: 5%; 
+}
+
+.container4 {
+    display: flex; 
+    justify-content: center;
+    height: 200px; 
+    align-items: center;
+    background: lightgray;
+
+}
+
+.call_to_action {
+    display: flex; 
+    height: 175px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox {
+    width: 80%; 
+    height: 50%;
+    background: cyan;
+    border-radius: 5%;
+}
+
+.footer {
+    background: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #F9FAF8; 
+}
